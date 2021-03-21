@@ -29,4 +29,4 @@
 
 - Create a test.yml file.
 
-- artillery run test.yaml
+- artillery run test.yml
