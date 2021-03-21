@@ -18,9 +18,11 @@
 	- sls config credentials --provider aws --key your_key --secret your_secret
 	- This saves credentials locally in ~/.aws, which is sent with each request.
 
-- Go to serverless.yml, Service should match the IAM created. Configure handler name as per your preference.
+- Go to serverless.yml, Configure handler name as per your preference.
 
 - To run the lambda function locally. Type 
 	- sls invoke local  --function functionName
 
-- Sending POST request
+# Load testing serverless functions.
+- Install artillery,
+	- npm i -g artillery
