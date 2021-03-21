@@ -26,3 +26,7 @@
 # Load testing serverless functions.
 - Install artillery,
 	- npm i -g artillery
+
+- Create a test.yml file.
+
+- artillery run test.yaml
